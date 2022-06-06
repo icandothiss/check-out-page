@@ -1,0 +1,300 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-block-start: 0;
+  padding-block-end: 0;
+  padding-inline-start: 0;
+  padding-inline-end: 0;
+}
+html {
+  line-height: 1;
+}
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100vh;
+}
+main {
+  display: flex;
+  flex-direction: column-reverse;
+}
+h1 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 32px;
+  padding-left: 18px;
+  margin-bottom: 21px;
+}
+.right {
+  width: 350px;
+  border-radius: 12px;
+  background-color: #f2f2f2;
+  padding-left: 26px;
+  margin-left: 12px;
+  padding-top: 30px;
+  margin-bottom: 39px;
+}
+.photo {
+  max-width: 122px;
+  border-radius: 12px;
+  margin-right: 18px;
+}
+.flex {
+  display: flex;
+}
+.price-tag {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 32px;
+}
+.number-field {
+  display: flex;
+}
+.product-desc {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.price {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: orange;
+}
+.photo1 {
+  margin-bottom: 28px;
+}
+#discount {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 2px;
+}
+label {
+  display: flex;
+  position: relative;
+}
+.minus,
+.plus {
+  width: 19px;
+  height: 19px;
+  border: none;
+  background-color: #e0e0e0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+#first-input {
+  width: 122px;
+  height: 49px;
+  border: 1px solid #828282;
+  border-radius: 12px;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+#first-input[type="text"] {
+  color: Gray 1;
+  background-color: #f2f2f2;
+}
+.flex1 {
+  margin-bottom: 87px;
+}
+.extra {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: gray 1;
+  border-top: 1px solid #bdbdbd;
+  padding-top: 10px;
+  margin-right: 23px;
+  margin-bottom: 22px;
+}
+.extra-price {
+  margin-left: auto;
+}
+.extra2 {
+  margin-top: 6px;
+}
+.left {
+  padding-left: 13px;
+}
+.contact {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: gray 1;
+  margin-bottom: 11px;
+}
+.input {
+  width: 349px;
+  height: 40px;
+  border-radius: 12px;
+  border: 1px solid #828282;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 12px;
+  margin-bottom: 17px;
+}
+.description {
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 6px;
+}
+.shipping {
+  margin-top: 28px;
+  margin-bottom: 11px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: gray 1;
+}
+#countries {
+  height: 40px;
+  width: 162px;
+  border-radius: 12px;
+  padding-left: 7px;
+  margin-right: 23px;
+  padding-right: 10px;
+  margin-bottom: 17px;
+  border: 1px solid #828282;
+  color: Gray 3;
+}
+.checkbox {
+  height: 15px;
+  width: 16px;
+  margin-right: 8px;
+}
+.save {
+  margin-bottom: 21px;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: gray 2;
+}
+#postal {
+  padding-left: 7px;
+  height: 40px;
+  width: 162px;
+  border-radius: 12px;
+  border: 1px solid #828282;
+  color: Gray 3;
+}
+.submit {
+  height: 54px;
+  width: 166px;
+  border-radius: 12px;
+  background-color: #f2994a;
+  border: none;
+  display: block;
+  margin-left: auto;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #ffffff;
+}
+.continue {
+  width: 100%;
+}
+@media only screen and (min-width: 1024px) {
+  main {
+    flex-direction: row;
+  }
+  h1 {
+    font-size: 36px;
+    margin-bottom: 51px;
+  }
+  .contact {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .right {
+    margin-left: auto;
+    margin-right: 240px;
+    height: 535px;
+    width: 383px;
+  }
+  .photo {
+    height: 136px;
+    width: 134px;
+  }
+  .product-desc {
+    font-size: 16px;
+  }
+  .price {
+    font-size: 16px;
+  }
+  .discount {
+    font-size: 12px;
+  }
+  .left,
+  h1 {
+    padding-left: 240px;
+  }
+  .input {
+    height: 56px;
+    width: 465px;
+    font-size: 16px;
+  }
+  .description {
+    font-size: 12px;
+  }
+  #countries,
+  #postal {
+    height: 56px;
+    width: 217px;
+    left: 239px;
+    font-size: 16px;
+  }
+  .save {
+    font-size: 12px;
+  }
+  .checkbox {
+    height: 21px;
+    width: 21px;
+  }
+}

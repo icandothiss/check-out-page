@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="all.css" />
+    <script
+      src="https://kit.fontawesome.com/c69d95a97b.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Redressed&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>CheckOut</title>
+  </head>
+  <body>
+    <h1>Checkout</h1>
+
+    <main>
+      <div class="left">
+        <p class="contact">Contact infomation</p>
+        <form action="validation succeded">
+          <p class="e-mail description">E-mail</p>
+
+          <input
+            class="input"
+            required
+            type="email"
+            id="email"
+            name="email"
+            placeholder="&#x2709;    Enter your email..."
+          />
+          <p class="phone description">Phone</p>
+
+          <input
+            class="input"
+            required
+            type="phone"
+            id="phone"
+            name="phone"
+            placeholder="&#x2709;    Enter your phone..."
+          />
+          <p class="shipping">Shipping address</p>
+          <p class="full-name description">Full name</p>
+
+          <input
+            class="input"
+            required
+            type="name"
+            id="name"
+            name="name"
+            placeholder="&#x2709;    Rodney Cotton"
+          />
+          <p class="your-adress description">Address</p>
+
+          <input
+            class="input"
+            required
+            type="adress"
+            id="adress"
+            name="adress"
+            placeholder="&#x2709;    Your address.."
+          />
+          <p class="city description">City</p>
+
+          <input
+            class="input"
+            required
+            type="City"
+            id="City"
+            name="City"
+            placeholder="&#x2709;    Your City.."
+          />
+          <div class="flex">
+            <div>
+              <p class="country description">Country</p>
+
+              <select required id="countries" name="countries">
+                <option class="icon" value="" disabled selected>
+                  &#x2709; Your country..
+                </option>
+                <option value="Tunisia">Tunisia</option>
+                <option value="France">France</option>
+                <option value="Amarica">Amarica</option>
+              </select>
+            </div>
+            <div>
+              <p class="postal-code description">Postal code</p>
+
+              <input
+                required
+                id="postal"
+                placeholder="&#x2709;    Your postal code.."
+              />
+            </div>
+          </div>
+          <label>
+            <input required type="checkbox" class="checkbox" />
+            <p class="save">Save this information for next time</p>
+          </label>
+          <div class="continue">
+            <button class="submit" type="submit" value="Continue">
+              Continue
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="right">
+        <div class="flex">
+          <img class="photo photo1" src="photo1.png" alt="" />
+          <div>
+            <p class="product-desc">Vintage Backbag</p>
+            <div class="price-tag">
+              <p class="price">$54.99</p>
+              <p id="discount">$94.99</p>
+            </div>
+            <label>
+              <button class="minus">-</button>
+              <input id="first-input" type="text" placeholder="1" />
+              <button class="plus">+</button>
+            </label>
+          </div>
+        </div>
+        <div class="flex flex1">
+          <img class="photo" src="photo2.png" alt="" />
+          <div>
+            <p class="product-desc">Levi Shoes</p>
+            <div class="price-tag">
+              <p class="price">$74.99</p>
+              <p id="discount">$124.99</p>
+            </div>
+            <label>
+              <button class="minus">-</button>
+              <input id="first-input" type="text" placeholder="1" />
+              <button class="plus">+</button>
+            </label>
+          </div>
+        </div>
+        <div class="flex extra">
+          <p class="shipping-total">Shipping</p>
+          <p class="extra-price">$19</p>
+        </div>
+        <div class="flex extra extra2">
+          <p class="shipping-total">Total</p>
+          <p class="extra-price extra-price2">$148.98</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
